@@ -3,29 +3,75 @@
 /*all parts defined by ids and classes */
 #intro {
 	font-family: Arial;
+	text-align: center;
+	font-size: 18px;
+	color: white;
+	text-align: center;
+	z-index: 2;
 }
 
-#me {
-	
+#professional {
+	padding: 30px;
+	float: left;
+	z-index: 1;
+}
+
+.topBox {
+	background-color: rgb(153, 26, 17);
+	padding: 200px;
+	color: white;
+}
+
+/*pictures on experience page*/
+.robotPics {
+	margin-left: auto;
+	margin-right: auto;
+	width: 55%;
+	padding: 5px;
+}
+
+/*picutres on projects page*/
+.wfPics {
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	padding: 5px;
+}
+
+#linguaPic {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 25%;
+}
+
+.pokemonPics {
+	margin-left: auto;
+	margin-right: auto;
+	width: 55%;
 }
 
 /*style for titles, lists, etc */
 h1 {
 	font-family: Grotesque, sans-serif;
 	text-align: center;
+	font-size: 36px;
 	
 }
 
 h2 {
 	font-family: Grotesque, sans-serif;
+	font-size: 24px;
 }
 
 p {
 	font-family: Arial;
+	font-size: 18px;
 }
 
 li {
 	font-family: Arial;
+	font-size: 18px;
 }
 
 img {
@@ -35,7 +81,7 @@ img {
 .topBar {
 	width: 100%;
 	height: 100dpx;
-	background-color: rgb(153, 26, 17);
+	background-color: gray;
 	padding: 6px; 
 	margin: 6px;
 }
@@ -45,7 +91,7 @@ img {
 	padding-left: 7px;
 	padding-bottom: 4px;
 	padding-top: 4px;
-	font-size: 16px;
+	font-size: 20px;
 }
 
 .topBar a:active {
@@ -53,7 +99,7 @@ img {
 }
 
 .topBar a:visited {
-	color: gray;
+	color: white;
 }
 
 .topBar a:hover {
