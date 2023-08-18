@@ -18,8 +18,45 @@
 
 .topBox {
 	background-color: rgb(153, 26, 17);
-	padding: 200px;
+	padding: 190px;
 	color: white;
+	font-weight: bold;
+}
+
+/*all topBar images and text (Might be super complex but it worked out)*/
+#levelR {
+	margin-left: 300px;
+	margin-right: auto;
+	width: 65%;
+	opacity: 0.2;
+	z-index: 0;
+	position: relative;
+}
+
+#uwt {
+	margin-left: 360px;
+	margin-right: auto;
+	width: 55%;
+	opacity: 0.2;
+	z-index: 0;
+	position: relative;
+}
+
+#exp {
+	z-index: 1;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#projectsIntro {
+	z-index: 1;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	bottom: 25%;
+	transform: translate(-50%, -50%);	
 }
 
 /*pictures on experience page*/
@@ -55,13 +92,13 @@
 h1 {
 	font-family: Grotesque, sans-serif;
 	text-align: center;
-	font-size: 36px;
+	font-size: 42px;
 	
 }
 
 h2 {
 	font-family: Grotesque, sans-serif;
-	font-size: 24px;
+	font-size: 30px;
 }
 
 p {
@@ -71,12 +108,9 @@ p {
 
 li {
 	font-family: Arial;
-	font-size: 18px;
+	font-size: 20px;
 }
 
-img {
-	
-}
 /*all visuals and link actions for the top bar*/
 .topBar {
 	width: 100%;
@@ -85,8 +119,6 @@ img {
 	padding: 6px; 
 	margin: 6px;
 }
-
-/*add topBar img after adding pics to topBar in projects and experience pages*/
 
 .topBar a {
 	padding-right: 7px;
