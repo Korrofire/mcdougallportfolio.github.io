@@ -126,6 +126,7 @@ li {
 	padding-bottom: 4px;
 	padding-top: 4px;
 	font-size: 20px;
+	font-family: Arial;
 }
 
 .topBar a:active {
@@ -144,3 +145,53 @@ li {
 	color: white;
 }
 
+/*footer style*/
+.foot {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: lightgray;
+	text-align: center;
+	font-family: Arial;
+}
+
+.foot a:active {
+	color: white;
+}
+
+.foot a:visited {
+	color: white;
+}
+
+.foot a:hover {
+	color: lightblue;
+}
+
+.foot a:link {
+	color: white;
+}
+
+/*site map style*/
+.siteBar {
+	background-color: rgb(153, 26, 17);
+	padding: 120px;
+	color: white;
+	text-align: center:
+}
+
+.siteBar a:active {
+	color: white;
+}
+
+.siteBar a:visited {
+	color: white;
+}
+
+.siteBar a:hover {
+	color: lightblue;
+}
+
+.siteBar a:link {
+	color: white;
+}
